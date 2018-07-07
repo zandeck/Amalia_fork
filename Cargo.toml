@@ -1,0 +1,20 @@
+[package]
+
+name = "Amalia"
+version = "0.0.1"
+authors = [ "antoine.allioux@gmail.com" ]
+
+[[bin]]
+name = "amalia"
+path = "src/main.rs"
+
+[dependencies]
+nom = "^2.0"
+cgmath= "*"
+vulkano = "0.8.0"
+vulkano-shader-derive = "0.8.0"
+vulkano-win = "0.8.0"
+image = "0.17.0"
+winit = "0.7.0"
+time = "0.1.38"
+
